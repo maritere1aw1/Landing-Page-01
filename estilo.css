@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(207, 246, 233);
+}
+#columnas{
+    column-count:1;
+    column-gap:10px;
+}
+#header{
+    background: #52BAB4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;     
+}
+#inicio{
+    background: rgba(175, 223, 238, 0.33);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+#perfil{
+    background: #c6bef7;
+    font-family: Quicksand;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+#estudios{
+    background: rgba(175, 223, 238, 0.33);
+    font-family: Quicksand;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding-bottom: 2px;
+}
+#experiencia{
+    background: #d0cbf3;
+    font-family: Quicksand;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+#portafolio{
+    background: #acd1d3;
+    font-family: Quicksand;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+}
+#enlaces{
+    display: flex;    
+    justify-content: space-around;
+    height: auto;
+}
+#tarjeta, #tarjeta1, #tarjeta2, #tarjeta3{
+    background: #52BAB4;
+    font-family: Quicksand;
+    font-size: 20px;
+    width: 150px;
+    height: 100px;    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align:center;
+    margin: 60px 24px 25px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;    
+}
+#tarjeta2 img, #tarjeta3 img, #tarjeta img{
+    max-width: 30%;
+    height: 45px;
+}
+
+#contacto{
+    background: rgba(151, 132, 225, 0.68);;
+    font-family: Quicksand;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+#footer{
+    background: #52BAB4;
+    font-family: Quicksand;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    margin: 5px 35px 5px 35px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+h2 {
+    color: #0d10e9; 
+    text-align: center; 
+}
+h1 {
+    color: #0d10e9; 
+    text-align: center;
+    font-family: Quicksand; 
+}
+h4 {
+    color: #0d10e9; 
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 30px; 
+}
+
+#imagenes-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+#imagenes-footer img{
+    max-width: 25%;
+    margin: auto;
+}
+
+#imagencorreo img, #imagengg img, #imagentel img{
+    max-width: 20%;
+}
+#tabla-contacto{
+    display: flex;      
+    justify-content: space-between;
+    margin-left: 10%;    
+}
+#estudios ul{
+    column-count:2;
+    margin-right: 5%;
+}
+#estudios li{
+    background: #89e8e3;
+    font-family: Quicksand;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    list-style:none;    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align:center;
+    margin-bottom: 0.5%;
+    padding-bottom: 2%; 
+}
+#estudios img{
+    max-width: 18%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+#imagen-fun img{
+    max-width: 10%;
+}
+#Imagen img{
+    width: 150px;
+    border-radius: 80px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+#Imagenreact img{
+    width: 200px;
+    border-radius: 80px;
+    border: 1px solid white;
+}
+#Imagenhtml img{
+    width: 200px;
+    border-radius: 80px;
+    border: 1px solid white;
+}
+#iniciodos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#icongithub img{
+    width: 70px;
+    margin-left: 5%;
+    margin-top: -50px;
+}
+@media screen and(min-width:500px) {
+    #tarjeta, #tarjeta1, #tarjeta2, #tarjeta3{
+        flex-direction: column;
+        display: none;    
+}
+
+/*@media (max-width:600px){
+    #tarjeta, #tarjeta1, #tarjeta2, #tarjeta3{
+        flex-direction: column;
+        display: none;
+    }*/
+    
+
+}
